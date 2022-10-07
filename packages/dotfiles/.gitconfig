@@ -1,0 +1,18 @@
+[user]
+	name = kanap-mshr
+	email = 76883092+kanap-mshr@users.noreply.github.com
+
+[alias]
+  s = status
+  ss = status -s
+  co = checkout
+	logg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+[pull]
+	rebase = false
+[filter "lfs"]
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+[core]
+	ignorecase = false
