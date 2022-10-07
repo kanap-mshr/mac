@@ -233,3 +233,8 @@ eval "$(jenv init -)"
 
 
 
+##### 未整理 ######
+
+export PATH=$PATH:$HOME/.nodebrew/current/bin
+
+

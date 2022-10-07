@@ -13,7 +13,7 @@ ln -sf ${currentDir}/.gitconfig ~/.gitconfig
 # # plantuml用
 # mkdir -p ~/local/lib/
 # ln -sf ${currentDir}/resources/plantuml.jar ~/local/lib/plantuml.jar
-# 
+#
 # # 自作スクリプト(~/bin)
 # mkdir -p ~/bin/scripts/
 # ln -sf ${currentDir}/scripts/*.sh ~/bin/scripts/
